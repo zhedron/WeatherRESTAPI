@@ -5,7 +5,6 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.List;
 
-@JsonAutoDetect (fieldVisibility = JsonAutoDetect.Visibility.ANY)
 public class WeatherNow {
     @JsonProperty ("weather")
     private  List<Weather> weather;
